@@ -1,0 +1,13 @@
+/* Pour les écrans larges (par exemple, ordinateurs de bureau) */
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Pour les écrans plus étroits (par exemple, smartphones en mode portrait) */
+  @media screen and (max-width: 767px) {
+    .row {
+      flex-direction: column; /* Empile les éléments verticalement */
+    }
+  }
+  
